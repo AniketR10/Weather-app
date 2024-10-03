@@ -1,0 +1,116 @@
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(34, 6, 6);
+}
+
+
+.app{
+
+    background:linear-gradient(to bottom ,rgb(143, 143, 239), rgb(51, 51, 228));
+    position: relative;
+    border-radius: 25px;
+    padding: 12px;
+    width: 414px;
+    height: 70vh;
+    padding: 0.5rem;
+    margin: 40px auto;
+}
+
+.searchBar{
+  
+    display: flex;
+    width: 90%;
+    border: none;
+   margin: 12px;
+}
+
+.info{
+    margin-top: 2rem;
+    /* background-color: aliceblue; */
+    
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.info #city{
+  font-size: 1.5rem;
+}
+.searchBar .searchIcon:hover{
+  cursor: pointer;
+}
+
+#description{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#image{
+  display: flex;
+  justify-content: center;
+  
+}
+
+#tempImg{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.searchBar #searchBara{
+    background: transparent;
+    border: none;
+   outline: none;
+    width: 100%;
+    font-size: 1.1rem;
+    border-bottom: 1px solid white;
+    padding: 4px;
+    margin-right: 2px;
+    color: white;
+    opacity: 0.8;
+}
+
+#searchBara::placeholder{
+    color: whitesmoke;
+    opacity: 0.7;
+}
+.searchIcon {
+    font-size: 1rem;
+   background-color: transparent;
+   border: none;
+}
+
+
+.range{
+    bottom: 0;
+    width: 90%;
+    margin-bottom: 1.5rem;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+
+
+
